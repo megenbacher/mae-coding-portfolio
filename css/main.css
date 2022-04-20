@@ -115,14 +115,14 @@
   h1 {
     color: whitesmoke;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     line-height: 1.5;
     width: 100%
   }
 
  .home-title .name {
     font-family: 'Square Peg', cursive;
-    font-size: 2.5rem;
+    font-size: 3.125rem;
     font-style: bold;
   }
 
@@ -130,11 +130,11 @@
 
   h2 {
     color: whitesmoke;
-    font-family: 'Ralway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
     width: 100%;
-    font-weight: 200;
+    font-weight: 400;
   }
 
   .highlight {
@@ -142,7 +142,10 @@
     background-repeat: no-repeat;
     background-size: 100% 95%;
     padding: 8px 0;
-    font-size: large;
+    font-size: 1.25rem;
+    font-style: bold;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     }
   
   h3 {
@@ -337,7 +340,8 @@
     margin-bottom: 20px;
     font-weight: 800;
     text-transform: uppercase;
-    text-decoration: underline;
+    font-style: bold;
+  
     
   }
   
@@ -506,6 +510,11 @@
   footer .social-icons li i {
     font-size: 1.875rem;
     color: whitesmoke;
+  }
+
+  #contact h3 {
+    margin-bottom: 0;
+   
   }
   
   
