@@ -95,7 +95,7 @@
   body {
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
-    color: #cfc2bd;
+    color: whitesmoke;
     background-color: #006E6D;
     /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
   }
@@ -108,32 +108,41 @@
   }
   
   a {
-    color: black;
+    color: #006e6d;
     text-decoration: none;
   }
   
   h1 {
-    color: #cfc2bd;
+    color: whitesmoke;
     font-family: 'Raleway', sans-serif;
     font-size: 1.75rem;
     line-height: 1.5;
     width: 100%
   }
+
+ .home-title .name {
+    font-family: 'Square Peg', cursive;
+    font-size: 2.5rem;
+    font-style: bold;
+  }
+
   
+
   h2 {
-    color: #cfc2bd;
+    color: whitesmoke;
     font-family: 'Ralway', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
     width: 100%;
-    font-weight: 400;
+    font-weight: 200;
   }
 
   .highlight {
-    background: url('../img/brush-stroke.png');
+    background: url('../img/blue-brush.png');
     background-repeat: no-repeat;
     background-size: 100% 95%;
     padding: 8px 0;
+    font-size: large;
     }
   
   h3 {
@@ -279,7 +288,7 @@
   }
   
   #skills {
-    padding-top: 80px;
+    padding-top: 60px;
   }
   
   figure {
@@ -288,8 +297,12 @@
   
   .skills-header {
     margin-bottom: 20px;
-    color: white;
+    color: whitesmoke;
     font-size: 2rem;
+    font-style: bold;
+    border: solid;
+    border-block-color: whitesmoke;
+  
   }
   
   .about-info h3 {
@@ -315,18 +328,20 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #b27066;
+    background-color: #e2916d;
   }
   
   header nav ul li {
     font-size: .75rem;
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: 800;
     text-transform: uppercase;
+    text-decoration: underline;
+    
   }
   
   nav #contact-link {
-    background-color: #cfc2bd;
+    background-color: whitesmoke;
     padding: 10px 10px;
     border-radius: 30px;
   }
@@ -381,10 +396,11 @@
   }
   
   .project-link {
-    background-color: #453E4F;
+    background-color: #e2916d;
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #FFFFFF;
+    text-decoration: none;
   }
   
   .project-link:hover {
@@ -424,25 +440,23 @@
   #about h3,
   #about h4,
   #about p {
-    color: #cfc2bd;
+    color: whitesmoke;
   }
 
 
   
   /* -------------------- Base Header Styles -------------------- */
   footer {
-    background: url('../img/forest.png');
+    background: url('../img/dark-forest-trees.jpg');
     background-position: center;
     background-size: cover;
-    color: #006E6D;
+    color: whitesmoke;
   }
 
-  h5 .highlight {
-    background: url('../img/green-brush.png');
-    background-position: center;
-    background-size: cover;
-    color: white;
+  footer a {
+    color: whitesmoke;
   }
+
 
   
   footer .contact-wrapper {
@@ -451,13 +465,23 @@
     justify-content: center;
     align-items: flex-start;
   }
+
+
   
   footer .contact-info {
     width: 60%;
   }
+
   
   footer h4 {
     width: 100%;
+    font-size: 1.50rem;
+    
+  }
+
+  footer a.email-link:hover {
+    background-color: #CAC4D1;
+    color: #453E4F;
   }
   
   footer .follow-section {
@@ -485,7 +509,7 @@
   
   footer .social-icons li i {
     font-size: 1.875rem;
-    color: white;
+    color: whitesmoke;
   }
   
   
