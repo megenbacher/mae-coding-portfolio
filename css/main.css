@@ -312,6 +312,7 @@
     font-style: bold;
     border: solid;
     border-block-color: whitesmoke;
+    text-transform: uppercase;
   
   }
   
@@ -381,6 +382,7 @@
   
   #work h3 {
     width: 100%;
+    text-transform: uppercase;
   }
   
   .portfolio-wrapper {
@@ -485,6 +487,9 @@
 
   footer a {
     color: whitesmoke;
+    font-family: 'Square Peg', cursive;
+    font-size: 2.5rem;
+    text-decoration: underline;
   }
 
 
@@ -905,11 +910,9 @@
   
     h3 {
       font-size: 2.5rem;
+      padding-bottom: 40px;
     }
-  
-    h4 {
-      font-size: 1.25rem;
-    }
+
   
     h5 {
       font-size: 1.5rem;
@@ -917,7 +920,7 @@
   
     .about-info h3 {
       font-size: 3.75rem;
-      text-align: left;
+      text-align: center;
     }
   
     .about-info h4 {
@@ -959,7 +962,7 @@
     }
   
     footer {
-      padding: 140px 0 140px 0;
+      padding: 100px 0 80px 0;
     }
   
     h2 {
@@ -977,6 +980,10 @@
     .project-link {
       margin: 40px 0 80px 0;
     }
+
+    img {
+      height: 280px;
+    }
   
     #skills {
       padding-top: 120px;
@@ -988,6 +995,7 @@
   
     .skills-header {
       margin-bottom: 40px;
+      padding-bottom: 0;
     }
   
     .about-info h3 {
@@ -1000,10 +1008,6 @@
   
     .about-text {
       margin: 0 0 30px 0;
-    }
-  
-    .contact-info {
-      margin: 80px 0 80px 0;
     }
   
     .contact-title {
@@ -1033,12 +1037,23 @@
     }
   
     .home-title {
-      max-width: 95%;
+      max-width: 90%;
     }
   
     .home-title h2 {
-      max-width: 70%;
+      max-width: 90%;
+      align-items: center;
     }
+
+    .home-title .name {
+      font-family: 'Square Peg', cursive;
+      font-size: 4.8rem;
+      font-style: bold;
+  }
+
+  .highlight {
+    font-size: 2rem;
+}
   
     /* portfolio */
     .home-portfolio-piece {
@@ -1054,7 +1069,7 @@
     /* about */
     .about-content-wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
     }
   
     #about figure {
@@ -1068,12 +1083,33 @@
   
     /* contact */
     footer .content-wrapper {
-      max-width: 70%;
+      max-width: 90%;
+    }
+
+
+    footer a {
+      color: whitesmoke;
+      text-decoration: underline;
+      font-family: 'Square Peg', cursive;
+      font-size: 3rem;
+    }
+
+
+    footer h4 {
+      text-align: center;
+      color: whitesmoke;
+      ;
+    }
+
+
+    footer {
+      padding-top: 80px;
+      padding-bottom: 40px;
     }
   
     footer .social-icons {
       width: 12.5em;
-      justify-content: space-between;
+      justify-content: space-evenly;
     }
   }
   
