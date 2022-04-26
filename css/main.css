@@ -96,7 +96,7 @@
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
     color: whitesmoke;
-    background-color: #006E6D;
+    background-color: #004240;
     /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
   }
   
@@ -108,7 +108,7 @@
   }
   
   a {
-    color: #006e6d;
+    color: #004240;
     text-decoration: none;
   }
   
@@ -341,7 +341,7 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #dd7e55;
+    background-color: #e2916d;
   }
   
   header nav ul li {
