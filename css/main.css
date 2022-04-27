@@ -341,7 +341,7 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #dd7e55;
+    background-color: #e2916d;
   }
   
   header nav ul li {
@@ -411,7 +411,7 @@
   }
   
   .project-link {
-    background-color: #dd7e55;
+    background-color: #e2916d;
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #002E2C;
@@ -463,6 +463,11 @@
   .about-info h4, .contact-title {
     font-weight: 400;
     font-size: 1.5rem;
+}
+
+#profile-image {
+  width: 90%;
+  margin-top: 20px;
 }
 
   
@@ -762,6 +767,11 @@
 
     #about p {
       font-size: 1.135rem;
+    }
+
+    #profile-image {
+      width: 70%;
+      margin-top: 60px;
     }
   
   
@@ -1080,6 +1090,14 @@
   
     .about-info {
       width: 58%;
+      padding-left: 40px;
+      
+    }
+
+    #profile-image {
+      width: 100%;
+      height: 80%;
+      
     }
   
     /* contact */
