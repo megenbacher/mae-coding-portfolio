@@ -165,7 +165,7 @@
   .tool-wrapper p {
     text-transform: uppercase;
     font-size: 1.125rem;
-    color: #453E4F;
+    color: black;
   }
   
   
@@ -358,7 +358,7 @@
     background-color: #00807d;
     padding: 10px 10px;
     border-radius: 30px;
-    color: whitesmoke;
+    color: white;
   }
   
   nav ul {
