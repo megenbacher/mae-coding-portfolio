@@ -113,7 +113,7 @@
   }
   
   h1 {
-    color: whitesmoke;
+    color: #005250;
     font-family: 'Raleway', sans-serif;
     font-size: 2.5rem;
     line-height: 1.5;
@@ -129,7 +129,7 @@
   
 
   h2 {
-    color: whitesmoke;
+    color: #005250;
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -138,7 +138,7 @@
   }
 
   .highlight {
-    background: url('../img/blue-brush.png');
+    background: url('../img/salmon-brush.png');
     background-repeat: no-repeat;
     background-size: 100% 95%;
     padding: 8px 0;
@@ -341,7 +341,7 @@
   /* -------------------- Base Header Styles -------------------- */
   
   header {
-    background-color: #e2916d;
+    background-color: #FAE5E6;
   }
   
   header nav ul li {
@@ -355,9 +355,10 @@
   }
   
   nav #contact-link {
-    background-color: whitesmoke;
+    background-color: #00807d;
     padding: 10px 10px;
     border-radius: 30px;
+    color: whitesmoke;
   }
   
   nav ul {
@@ -432,12 +433,12 @@
   #skills h4 {
     margin: 40px 0 40px 0;
     font-weight: bold;
-    color: white;
+    color: whitesmoke;
   }
   
   .language-wrapper p,
   .tool-wrapper p {
-    background-color: white;
+    background-color: #e2916d;
     padding: 15px 0;
     margin: 20px 0;
   }
@@ -465,10 +466,6 @@
     font-size: 1.5rem;
 }
 
-#profile-image {
-  width: 90%;
-  margin-top: 20px;
-}
 
   
   #about h3,
@@ -545,7 +542,7 @@
   
   footer .social-icons li i {
     font-size: 1.875rem;
-    color: whitesmoke;
+    color: #e2916d;
   }
 
   #contact h3 {
@@ -769,11 +766,6 @@
       font-size: 1.135rem;
     }
 
-    #profile-image {
-      width: 70%;
-      margin-top: 60px;
-    }
-  
   
     .contact-title {
       margin: 0 0 30px 0;
@@ -1091,12 +1083,6 @@
     .about-info {
       width: 58%;
       padding-left: 40px;
-      
-    }
-
-    #profile-image {
-      width: 100%;
-      height: 80%;
       
     }
   
