@@ -196,6 +196,7 @@
   
   img {
     width: 100%;
+    padding-bottom: 30px;
   }
   
   figure {
@@ -464,6 +465,7 @@
   .about-info h4, .contact-title {
     font-weight: 400;
     font-size: 1.5rem;
+    padding-bottom: 5px;
 }
 
 
@@ -762,6 +764,11 @@
       padding-bottom: 0;
     }
 
+    img {
+      height: 400px;
+      width: 300px;
+    }
+
     #about p {
       font-size: 1.135rem;
     }
@@ -985,7 +992,9 @@
     }
 
     img {
-      height: 280px;
+      height: 400px;
+      width: 300px;
+      padding-bottom: 5px;
     }
   
     #skills {
